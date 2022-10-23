@@ -1,0 +1,10 @@
+# Enter your solution below
+import math
+GPA = float(input('What is your GPA? :'))
+print()
+absences = int(input('How many absences do you have? :'))
+print()
+if (GPA >= 3.5) and (absences <= 2):
+    print('Congratulations on your McGuffin.')
+else:
+    print('No award for you!')
